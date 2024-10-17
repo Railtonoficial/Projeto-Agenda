@@ -1,3 +1,7 @@
+<?php
+include("db/conexao.php");
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -12,14 +16,49 @@
 <header>
     <h1>Sistema Agenda 1.0</h1>
     <nav>
-        <a href="#">Home</a> |
-        <a href="#">Contato</a> |
-        <a href="#">Tarefas</a> |
-        <a href="#">Eventos</a>
+        <a href="index.php?menuop=home">Home</a> |
+        <a href="index.php?menuop=contatos">Contato</a> |
+        <a href="index.php?menuop=tarefas">Tarefas</a> |
+        <a href="index.php?menuop=eventos">Eventos</a>
     </nav>
 </header>
-<mian>
-
-</mian>
+<main>
+    <hr>
+    <?php
+    $menuop = (isset($_GET["menuop"])) ? $_GET["menuop"] : "home";
+    switch ($menuop) {
+        case 'home':
+            include("./paginas/home/home.php");
+            break;
+        case 'contatos':
+            include("./paginas/contatos/contatos.php");
+            break;
+        case 'cad-contato':
+            include("./paginas/contatos/cad-contato.php");
+            break;
+        case 'inserir-contato':
+            include("./paginas/contatos/inserir-contato.php");
+            break;
+        case 'editar-contato':
+            include("./paginas/contatos/editar-contato.php");
+            break;
+        case 'atualizar-contato':
+            include("./paginas/contatos/atualizar-contato.php");
+            break;
+        case 'excluir-contato':
+            include("./paginas/contatos/excluir-contato.php");
+            break;
+        case 'tarefas':
+            include("./paginas/tarefas/tarefas.php");
+            break;
+        case 'eventos':
+            include("./paginas/eventos/eventos.php");
+            break;
+        default:
+            include("./paginas/home/home.php");
+            break;
+    }
+    ?>
+</main>
 </body>
 </html>
