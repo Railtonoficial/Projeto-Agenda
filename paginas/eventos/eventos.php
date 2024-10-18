@@ -1,1 +1,1 @@
-<h3>Eventos</h3>
+<h3><i class="bi bi-calendar2-week"></i> Eventos</h3>
