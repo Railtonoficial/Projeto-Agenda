@@ -17,7 +17,7 @@ $rs = mysqli_query($conexao, $sql);
 <div class="d-flex align-items-center mb-2">
     <form action="index.php?menuop=tarefas" method="post" class="d-flex">
         <div class="input-group">
-            <input class="form-control" type="text" name="txt_pesquisa" style="width: 350px;" value="<?= $txt_pesquisa?>">
+            <input class="form-control" type="text" name="txt_pesquisa" style="width: 450px;" value="<?= $txt_pesquisa?>">
             <button class="btn btn-outline-success btn-sm" type="submit">
                 <i class="bi bi-search"></i> Pesquisar
             </button>
