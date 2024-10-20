@@ -61,22 +61,3 @@ CREATE TABLE tbusuarios (
 );
 ```
 
-##Instalação
-
-**Clone este repositório:
-git clone https://github.com/seuusuario/sistema-agenda.git
-
-bash
-Copy code
-git clone https://github.com/seuusuario/sistema-agenda.git
-
-##Configure o banco de dados:
-
-Crie um banco de dados no MySQL.
-Importe as tabelas conforme as estruturas acima.
-Configure a conexão com o banco de dados no arquivo db/conexao.php.
-
-Acesse o sistema pelo navegador através do arquivo index.php.
-
-##Contribuição
-Contribuições são bem-vindas! Sinta-se à vontade para abrir um "issue" ou enviar um "pull request".
