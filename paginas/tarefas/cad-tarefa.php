@@ -8,30 +8,48 @@
         <div class="mb-3">
             <label for="tituloTarefa" class="form-label">Título</label>
             <input class="form-control" type="text" name="tituloTarefa" id="tituloTarefa" required>
+            <div class="invalid-feedback">
+                Por favor, insira Título.
+            </div>
         </div>
         <div class="mb-3">
             <label for="descricaoTarefa" class="form-label">Descrição</label>
             <textarea name="descricaoTarefa" id="descricaoTarefa" cols="30" rows="5" class="form-control"
                       required></textarea>
+            <div class="invalid-feedback">
+                Por favor, insira Descrição.
+            </div>
         </div>
         <div class="row">
             <div class="mb-3 col-6">
                 <label for="dataConclusaoTarefa" class="form-label">Data de Conclusão</label>
                 <input class="form-control" type="date" name="dataConclusaoTarefa" id="dataConclusaoTarefa" required>
+                <div class="invalid-feedback">
+                    Por favor, Selecione Data de Conclusão.
+                </div>
             </div>
             <div class="mb-3 col-6">
                 <label for="horaConclusaoTarefa" class="form-label">Hora de Conclusão</label>
                 <input class="form-control" type="time" name="horaConclusaoTarefa" id="horaConclusaoTarefa" required>
+                <div class="invalid-feedback">
+                    Por favor, Selecione Hora de Conclusão.
+                </div>
             </div>
         </div>
         <div class="row">
             <div class="mb-3 col-6">
                 <label for="dataLembreteTarefa" class="form-label">Data de Lembrete</label>
                 <input class="form-control" type="date" name="dataLembreteTarefa" id="dataLembreteTarefa" required>
+                <div class="invalid-feedback">
+                    Por favor, Selecione Data de Lembrete.
+                </div>
             </div>
             <div class="mb-3 col-6">
                 <label for="horaLembreteTarefa" class="form-label">Hora de Lembrete</label>
                 <input class="form-control" type="time" name="horaLembreteTarefa" id="horaLembreteTarefa" required>
+                <div class="invalid-feedback">
+                    Por favor, Selecione Hora de Lembrete.
+                </div>
             </div>
         </div>
         <div class="row">
@@ -44,6 +62,9 @@
                     <option value="3">Mensalmente</option>
                     <option value="4">Anualmente</option>
                 </select>
+                <div class="invalid-feedback">
+                    Por favor, Selecione Recorrência
+                </div>
             </div>
         </div>
         <div class="mb-3">

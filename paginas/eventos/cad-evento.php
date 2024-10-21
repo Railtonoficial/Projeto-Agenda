@@ -8,35 +8,53 @@
         <div class="mb-3">
             <label for="tituloEvento" class="form-label">Título</label>
             <input class="form-control" type="text" name="tituloEvento" id="tituloEvento" required>
+            <div class="invalid-feedback">
+                Por favor, insira Título.
+            </div>
         </div>
         <div class="mb-3">
             <label for="descricaoEvento" class="form-label">Descrição</label>
             <textarea name="descricaoEvento" id="descricaoEvento" cols="30" rows="5" class="form-control"
                       required></textarea>
+            <div class="invalid-feedback">
+                Por favor, insira Descrição.
+            </div>
         </div>
         <div class="row">
             <div class="mb-3 col-6">
                 <label for="dataInicioEvento" class="form-label">Data de Início</label>
                 <input class="form-control" type="date" name="dataInicioEvento" id="dataInicioEvento" required>
+                <div class="invalid-feedback">
+                    Por favor, Selecione Data de Início.
+                </div>
             </div>
             <div class="mb-3 col-6">
                 <label for="horaInicioEvento" class="form-label">Hora de Início</label>
                 <input class="form-control" type="time" name="horaInicioEvento" id="horaInicioEvento" required>
+                <div class="invalid-feedback">
+                    Por favor, Selecione Hora de Início.
+                </div>
             </div>
         </div>
         <div class="row">
             <div class="mb-3 col-6">
                 <label for="dataFimEvento" class="form-label">Data de Fim</label>
-                <input class="form-control" type="date" name="dataFimEvento" id="dataFimEvento">
+                <input class="form-control" type="date" name="dataFimEvento" id="dataFimEvento" required>
+                <div class="invalid-feedback">
+                    Por favor, Selecione Data de Fim.
+                </div>
             </div>
             <div class="mb-3 col-6">
                 <label for="horaFimEvento" class="form-label">Hora de Fim</label>
-                <input class="form-control" type="time" name="horaFimEvento" id="horaFimEvento">
+                <input class="form-control" type="time" name="horaFimEvento" id="horaFimEvento" required>
+                <div class="invalid-feedback">
+                    Por favor, Selecione Hora de Fim.
+                </div>
             </div>
         </div>
 
         <div class="mb-3">
-            <input class="btn btn-outline-success" type="submit" value="Adicionar" name="btnAdicionar">
+            <input class="btn btn-outline-success" type="submit" value="Adicionar" name="btnAdicionar" required>
         </div>
     </form>
 </div>

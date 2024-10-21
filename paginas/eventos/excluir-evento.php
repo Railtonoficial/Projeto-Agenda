@@ -14,7 +14,7 @@ if ($rs) {
     ?>
     <div class="alert alert-success" role="alert">
         <h4 class="alert-heading">Excluir Evento</h4>
-        <p>Evento excluida com sucesso.</p>
+        <p>Evento excluido com sucesso.</p>
         <hr>
         <p class="mb-0">
             <a href="?menuop=eventos">Voltar para a lista de Eventos.</a>
