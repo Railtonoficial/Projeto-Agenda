@@ -17,7 +17,7 @@ if ($rs) {
         <p>Tarefa excluida com sucesso.</p>
         <hr>
         <p class="mb-0">
-            <a href="?menuop=tarefas">Voltar para a lista de tarefas.</a>
+            <a class="btn btn-success" href="?menuop=tarefas">Voltar para a lista de tarefas.</a>
         </p>
     </div>
     <?php
@@ -28,7 +28,7 @@ if ($rs) {
         <p>A tarefa não pode ser excluida.</p>
         <hr>
         <p class="mb-0">
-            <a href="?menuop=tarefas">Voltar para a lista de tarefas.</a>
+            <a class="btn btn-outline-danger" href="?menuop=tarefas">Voltar para a lista de tarefas.</a>
         </p>
     </div>
     <?php

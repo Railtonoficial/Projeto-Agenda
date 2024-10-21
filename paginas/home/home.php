@@ -16,9 +16,7 @@
             <h5 class="card-title">O que você gostaria de fazer hoje?</h5>
             <p class="card-text">Use o menu acima para acessar suas tarefas, contatos e eventos. Aproveite a sua
                 agenda!</p>
-            <a href="../tarefas/tarefas.php" class="btn btn-primary">Ver Tarefas</a>
-            <a href="../contatos/contatos.php" class="btn btn-secondary">Ver Contatos</a>
-            <a href="../eventos/eventos.php" class="btn btn-success">Ver Eventos</a>
+            <img src="img/banner-home.png" alt="banner-agendador" width="100%">
         </div>
     </div>
 </div>
