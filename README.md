@@ -41,54 +41,6 @@ Este é um sistema de agenda simples desenvolvido em PHP, que permite a gestão 
 
 - **Paginação de Tarefas e Contatos**: As listas de tarefas e contatos são paginadas, permitindo que os usuários naveguem entre as páginas de resultados. O sistema carrega um número definido de registros por página.
 
-## Estrutura do Projeto
-
-O projeto é composto pelos seguintes arquivos principais:
-
-- `db/conexao.php`: Responsável pela conexão com o banco de dados.
-- `login.php`: Gerencia o processo de login de usuários.
-- `tarefas.php`: Exibe a lista de tarefas e permite a interação do usuário.
-- `inserir-tarefa.php`: Formulário para inserir novas tarefas.
-- `editar-tarefa.php`: Formulário para editar tarefas existentes.
-- `excluir-tarefa.php`: Script para excluir tarefas.
-- `contatos.php`: Exibe a lista de contatos e permite a interação do usuário.
-- `inserir-contato.php`: Formulário para inserir novos contatos.
-- `editar-contato.php`: Formulário para editar contatos existentes.
-- `excluir-contato.php`: Script para excluir contatos.
-- `eventos.php`: Exibe a lista de eventos e permite a interação do usuário.
-- `inserir-evento.php`: Formulário para inserir novos eventos.
-- `editar-evento.php`: Formulário para editar eventos existentes.
-- `excluir-evento.php`: Script para excluir eventos.
-- `index.php`: Página principal que gerencia a navegação entre diferentes funcionalidades.
-
-## Como Executar o Projeto
-
-1. **Configurar o Banco de Dados**: 
-   - Crie um banco de dados MySQL e execute os scripts SQL necessários para criar as tabelas (`tbusuarios`, `tbtarefas`, `tbcontatos`, `tbeventos`).
-   
-2. **Configurar a Conexão**: 
-   - Altere as credenciais de conexão no arquivo `db/conexao.php` para corresponder ao seu ambiente.
-
-3. **Iniciar o Servidor**: 
-   - Utilize um servidor local como XAMPP ou WAMP para executar o projeto.
-
-4. **Acessar o Sistema**: 
-   - Abra um navegador e acesse `http://localhost/seu_projeto/login.php` para começar a usar a aplicação.
-
-## Exemplo de Uso
-
-1. **Login**: O usuário acessa a página de login e insere suas credenciais. Se as credenciais forem válidas, ele é redirecionado para a página principal.
-2. **Gerenciamento de Tarefas**:
-   - O usuário pode adicionar uma nova tarefa preenchendo o formulário em `inserir-tarefa.php`.
-   - As tarefas podem ser visualizadas em `tarefas.php`, onde o usuário pode editar ou excluir tarefas existentes.
-   - O status das tarefas pode ser atualizado diretamente na lista.
-3. **Gerenciamento de Contatos**:
-   - O usuário pode adicionar novos contatos em `inserir-contato.php`.
-   - Os contatos podem ser gerenciados na página `contatos.php`.
-4. **Gerenciamento de Eventos**:
-   - O usuário pode adicionar novos eventos em `inserir-evento.php`.
-   - Os eventos podem ser gerenciados na página `eventos.php`.
-
 ## Contribuições
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
